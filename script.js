@@ -95,7 +95,7 @@ Promise.all([malePromise, femalePromise, maleProPromise, femaleProPromise]).then
     //x scales
 
     let x2 = d3.scaleLinear()
-    .domain([0, d3.max(femalep, d => +d.population)]).nice()
+    .domain([0, d3.max(malep, d => +d.population)]).nice()
     .range([0, width / 2]);
 
     let x2a= d3.scaleLinear()
