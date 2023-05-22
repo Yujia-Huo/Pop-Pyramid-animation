@@ -4,12 +4,23 @@
     <head>
         <script src="https://d3js.org/d3.v7.js"></script>
         <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
     </head>
 
     <body>
-        <div id="pop"></div>
+        <div id="titleContainer">
+            <img src="logo.png" alt="My beautiful image" height="100">
+            <h2>World Population Demography History and Projection: <span id="year"></span></h2>
 
+        </div>
+        <div id="vizContainer">
+            <div id="pop"></div>
+            <div id="legendContainer">
+                <h3>Legend</h3>
+                <div id="legend"></div>
+            </div>
+        </div>
 
 
 

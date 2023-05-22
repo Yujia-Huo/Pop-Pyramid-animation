@@ -1,3 +1,53 @@
 body{
-    font-family: sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    background-color: rgb(240, 240, 240);
+}
+
+h2{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 25pt;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 16pt;
+}
+.axis-label{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 200;
+
+
+}
+
+/* img{
+    padding-top: 10px;
+} */
+
+#year{
+    font-weight: 500;
+
+}
+
+#vizContainer{
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#titleContainer{
+    margin-left: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#legendContainer{
+    padding-top: 70px;
+
+}
+#pop{
+    width: 70%;
 }
