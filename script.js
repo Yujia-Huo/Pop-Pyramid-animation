@@ -120,7 +120,7 @@ Promise.all([malePromise, femalePromise, maleProPromise, femaleProPromise]).then
     // Y scale
     var y = d3.scaleBand()
     .domain(male.map(d => d.age_Group))
-    .range([ 0, height])
+    .range([ height, 0])
     .padding(.1);
 
 
